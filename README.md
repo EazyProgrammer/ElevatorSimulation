@@ -1,20 +1,32 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Elevator Management System
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+An interactive console-based application for managing elevators, with user and admin functionalities. The project is designed with modularity, testability, and scalability in mind.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+---
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Features
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+### User Features
+- Call an elevator to a specific floor with a specified number of passengers.
+- View real-time elevator statuses, including current floor, direction, and load.
+
+### Admin Features
+- View detailed elevator statuses.
+- Add new elevators with configurable parameters.
+- Add new floors with passenger details.
+- Navigate through the admin menu and exit to the main menu.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- **.NET 6.0 SDK** or higher
+- **Visual Studio** or any other C# IDE
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/elevator-management-system.git
+   cd elevator-management-system
