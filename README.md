@@ -28,5 +28,6 @@ An interactive console-based application for managing elevators, with user and a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/elevator-management-system.git
-   cd elevator-management-system
+   https://github.com/EazyProgrammer/ElevatorSimulation.git
+   cd ElevatorSimulation
+   ```
